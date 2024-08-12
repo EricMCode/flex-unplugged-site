@@ -359,6 +359,93 @@ aside {
   /* Style adjustments for high resolution devices */
 }
 
+/* My Test Media Queries*/
+
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
+  .content-wrapper { 
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+   /* Header */
+ 
+   header {
+     padding: 33px 0;
+   }
+
+   header .content-wrapper {
+       width: 100%;
+       justify-content: space-between;
+   }
+
+   header nav {
+       width: 
+   }
+
+   header nav ul {
+
+   }
+
+   .header-divider {
+       display: none;
+   }
+
+   /* Hero Area */
+
+   /* Aside */
+   aside .content-wrapper {
+       margin: 50px 0;
+   }
+
+   aside .content-wrapper .form-description,
+   aside .content-wrapper .form {        
+       width:         
+       margin: 0;
+   }
+
+   /* Features */
+
+   .features article {
+
+   }
+
+   .features .features-item-description {
+       width: 
+   }
+
+   /* Reviews */
+   .reviews article {
+
+   }
+   
+   .reviews article div {
+       width:         
+   }
+
+   /* Footer */
+   footer .content-wrapper {
+       width: 
+       margin: 100px 0;
+   }
+   
+   .footer-content {
+
+   }
+
+   footer .contact {
+       margin-bottom: 0;
+   }
+
+   footer .copyright {
+       width:
+   }
+}
+ 
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
