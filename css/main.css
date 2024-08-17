@@ -249,7 +249,15 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  /* justify-content: center; */
+
 }
 
 /* Reviews */
