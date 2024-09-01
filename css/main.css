@@ -113,6 +113,7 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;  
   font-size: 1.875em;
+  color: #e2e3ed;
 }
  
 h3, 
@@ -120,6 +121,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  color: #e2e3ed;
 }
  
 p {
@@ -181,7 +183,7 @@ address {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-color: #202322; why isn't this working!*/
+    background-color: #202322; 
   }
   
   footer p {
@@ -219,6 +221,12 @@ address {
 .hero-area {
   display: flex;
   justify-content: center;
+  /*Testing Responsive Images*/
+  background-image: url('../images/unplugged-retreat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #e2e3ed;
 }
 
 /* Aside */
@@ -226,6 +234,11 @@ address {
 aside {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+aside h3, p {
+  color: #e2e3ed;
 }
 
 /* Features */
@@ -233,6 +246,13 @@ aside {
 .features {
   display: flex;
   justify-content: center;
+  background-image: url('../images/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features h2 {
@@ -244,7 +264,7 @@ aside {
   margin: 30px 0;
 }
 
-.features .features-items {
+.features .featured-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -268,6 +288,7 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -286,11 +307,13 @@ aside {
 .mission {
   display: flex;
   justify-content: center;
+  background-color:  #527158;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -320,6 +343,7 @@ aside {
 .faq {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -484,7 +508,7 @@ input[type=button] {
    }
 
    header nav {
-       width: 
+       width: 100%;
    }
 
    header nav ul {
